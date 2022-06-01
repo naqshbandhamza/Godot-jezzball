@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="ReferenceRect" type="ReferenceRect"]
+margin_left = 181.0
+margin_top = 119.0
+margin_right = 186.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 3, 3 )
+border_color = Color( 0, 0, 0, 1 )
+editor_only = false
+__meta__ = {
+"_edit_use_anchors_": false
+}

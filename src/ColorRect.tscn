@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="Theme" id=1]
+
+[node name="ColorRect" type="ColorRect"]
+margin_left = 153.0
+margin_top = 98.0
+margin_right = 157.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 2, 2 )
+theme = SubResource( 1 )
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

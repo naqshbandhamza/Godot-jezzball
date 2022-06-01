@@ -1,0 +1,39 @@
+{
+
+"images": [
+    "ninja.png"
+],
+
+"framerate": 20,
+"frames": [
+	[1, 1, 118, 165, 0, 0, 0],
+	[118, 1, 118, 165, 0, 0, 0],
+	[237, 1, 118, 165, 0, 0, 0],
+	[364, 1, 118, 165, 0, 0, 0],
+	[500, 1, 118, 165, 0, 0, 0],
+	[626, 1, 118, 165, 0, 0, 0],
+	[1, 167, 118, 165, 0, 0, 0],
+	[120, 167, 118, 165, 0, 0, 0],
+	[250, 167, 150, 165, 0, 0, 0],
+	[377, 167, 125, 165, 0, 0, 0],
+	[506, 167, 130, 165, 0, 0, 0],
+	[633, 167, 130, 165, 0, 0, 0]
+],
+
+"animations": {
+	"front": { "frames": [0]},
+	"back": { "frames": [1]},
+	"left": { "frames": [3]},
+	"right": { "frames": [2]},
+    "moveleft": { "frames": [10, 11], "next": "moveleft", "speed": 0.1 },
+    "moveright": { "frames": [8, 9], "next": "moveright", "speed": 0.1 },
+    "moveup": { "frames": [6, 7], "next": "moveup", "speed": 0.1 },
+    "movedown": { "frames": [4, 5], "next": "movedown", "speed": 0.1 }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:bc98a8ad772f4fe7e78cce1d86329610:40da1b2563af90599cf8d625a0ee630e:41899e235aed443442e80a2432c9f35b$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

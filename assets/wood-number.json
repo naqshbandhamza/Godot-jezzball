@@ -1,0 +1,21 @@
+{
+
+"images": [
+    "wood-number.png"
+],
+
+"framerate": 20,
+"frames": [
+	[0, 0, 84, 84, 0, 0, 0]
+],
+
+"animations": {
+	"box": { "frames": [0]}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:bc98a8ad772f4fe7e78cce1d86329610:40da1b2563af90599cf8d625a0ee630e:41899e235aed443442e80a2432c9f35b$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

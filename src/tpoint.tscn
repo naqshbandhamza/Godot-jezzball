@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/tpoint.gd" type="Script" id=1]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 63.6396
+
+[node name="Node" type="Node"]
+script = ExtResource( 1 )
+
+[node name="point2d" type="Area2D" parent="."]
+position = Vector2( 264, 185 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="point2d"]
+shape = SubResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="point2d"]
+margin_right = 3.0
+margin_bottom = 3.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="area_entered" from="point2d" to="." method="_on_point2d_area_entered"]
